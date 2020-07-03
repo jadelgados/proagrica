@@ -1,0 +1,84 @@
+
+.card {
+    display: flex;
+    margin: 5px;
+    background-color: rgb(6, 119, 2);
+    color: white;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .card img{
+    margin: 7px;
+    width: 80px;
+  }
+
+  .title {
+      font-size: 1.75em;
+      font-weight: bold;
+      
+      text-decoration: none;
+  }
+  h2 {
+      margin: 5px;
+  }
+  h4 {
+      margin: 0px;
+  }
+
+
+
+  a {
+      color: white;
+  }
+
+  .isFav {
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 5px;
+    color: orange;
+    font-size: 30px;
+  }
+
+  .notIsFav {
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 5px;
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .modal-content {
+    text-align: center;
+  }
+
+  .modal-content h1 {
+    font-size: 45px;
+  }
+
+  .modal-content img {
+    margin: 30px;
+  }
+  .modal-content a {
+    color: blue;
+    font-size: 30px;
+  }
+
+  .modal-content p {
+    text-align: justify;
+    padding: 25px;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
